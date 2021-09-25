@@ -9,7 +9,7 @@ namespace Fibonachi
         
         static void Main(string[] args)
         {
-            for (int i = 0; i < 20; i++)
+            for (var i = 0; i < 100; i++)
             {
                 stopwatch.Start();
                 new Fibonachi().Run(n: i);
