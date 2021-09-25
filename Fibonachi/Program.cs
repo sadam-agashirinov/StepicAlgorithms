@@ -10,7 +10,7 @@ namespace Fibonachi
         
         static void Main(string[] args)
         {
-            IFibonachi fibonachi = new RecursionSolution();
+            IFibonachi fibonachi = new WithoutCacheSolution();
             for (var i = 0; i < 100; i++)
             {
                 _stopwatch.Start();
