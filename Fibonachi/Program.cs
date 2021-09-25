@@ -4,6 +4,9 @@ using Fibonachi.Solutions;
 
 namespace Fibonachi
 {
+    /// <summary>
+    /// Алгоритм поиска числа Фибоначи
+    /// </summary>
     class Program
     {
         private static readonly Stopwatch _stopwatch = new Stopwatch();

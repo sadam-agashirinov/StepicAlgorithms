@@ -4,6 +4,9 @@ using GCD.Solutions;
 
 namespace GCD
 {
+    /// <summary>
+    /// Алгоритм поиска наибольшего общего делителя
+    /// </summary>
     class Program
     {
         private static readonly Stopwatch stopwatch = new Stopwatch();
