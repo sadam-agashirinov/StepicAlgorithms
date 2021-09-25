@@ -9,7 +9,7 @@ namespace GCD
         private static readonly Stopwatch stopwatch = new Stopwatch();
         static void Main(string[] args)
         {
-            IGCD gcd = new EuclidSolution();
+            IGCD gcd = new EuclidSolutionWithoutRecursion();
             stopwatch.Start();
             gcd.Run(3654 * 6598, 7415 * 6598);
             stopwatch.Stop();
